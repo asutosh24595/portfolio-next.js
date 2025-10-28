@@ -12,7 +12,7 @@ export default function About() {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-linear-to-r from-pink-500 to-violet-500"
+        className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-linear-to-r from-slate-500 to-gray-200"
       >
         About Me
       </motion.h2>

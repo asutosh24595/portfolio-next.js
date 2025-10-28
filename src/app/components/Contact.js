@@ -11,7 +11,7 @@ export default function Contact() {
     >
       {/* Section Title */}
       <motion.h2
-        className="text-4xl font-bold text-white mb-12 text-center"
+        className="text-4xl font-bold text-slate-400 mb-12 text-center"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -29,26 +29,26 @@ export default function Contact() {
         <input
           type="text"
           placeholder="Your Name"
-          className="p-3 rounded-lg bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="p-3 rounded-lg bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-slate-500"
         />
         <input
           type="email"
           placeholder="Your Email"
-          className="p-3 rounded-lg bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="p-3 rounded-lg bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-slate-500"
         />
         <textarea
           placeholder="Your Message"
           rows={5}
-          className="p-3 rounded-lg bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="p-3 rounded-lg bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-slate-500"
         />
-        <button className="px-6 py-3 bg-linear-to-r from-purple-400 to-pink-500 text-white rounded-lg shadow-lg hover:scale-105 transform transition-all mt-2">
+        <button className="px-6 py-3 bg-linear-to-r from-slate-400 to-gray-500 text-white rounded-lg shadow-lg hover:scale-105 transform transition-all mt-2">
           Send Message
         </button>
       </motion.form>
 
       {/* Social Links */}
       <motion.div
-        className="flex gap-6 mt-8 text-2xl text-purple-400"
+        className="flex gap-6 mt-8 text-2xl text-slate-400"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1 }}

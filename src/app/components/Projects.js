@@ -30,7 +30,7 @@ export default function Projects() {
     <section id="projects" className="py-20 px-6">
       {/* Section title */}
       <motion.h2
-        className="text-4xl font-bold text-center text-white mb-12"
+        className="text-4xl font-bold text-center text-slate-400 mb-12"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -44,19 +44,19 @@ export default function Projects() {
           <motion.a
             key={index}
             href={project.link}
-            className="group bg-gray-900 rounded-xl p-6 hover:scale-105 transform transition-all shadow-lg hover:shadow-purple-500/50"
+            className="group bg-gray-900 rounded-xl p-6 hover:scale-105 transform transition-all shadow-lg hover:shadow-slate-500/50"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2, duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-purple-400">
+            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-slate-300">
               {project.name}
             </h3>
             <p className="text-gray-300">{project.description}</p>
 
             {/* Tech icons */}
-            <div className="flex mt-4 space-x-3 text-xl text-purple-400">
+            <div className="flex mt-4 space-x-3 text-xl text-slate-400">
               {project.tech.map((icon, idx) => (
                 <span key={idx}>{icon}</span>
               ))}

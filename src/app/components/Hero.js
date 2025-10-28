@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="hero" className="flex flex-col items-center justify-center min-h-screen text-center px-6">
       {/* Headline */}
       <motion.h1
-        className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-pink-500 to-red-500"
+        className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-slate-400 via-gray-300 to-slate-300"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -34,13 +34,13 @@ export default function Hero() {
       >
         <a
           href="#projects"
-          className="px-6 py-3 bg-linear-to-r from-purple-400 to-pink-500 text-white rounded-lg shadow-lg hover:scale-105 transform transition-all"
+          className="px-6 py-3 bg-linear-to-r from-slate-400 to-gray-500 text-white rounded-lg shadow-lg hover:scale-105 transform transition-all"
         >
           View Projects
         </a>
         <a
           href="#contact"
-          className="px-6 py-3 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-black transform transition-all"
+          className="px-6 py-3 border border-slate-400 text-gray-400 rounded-lg hover:bg-slate-400 hover:text-black transform transition-all"
         >
           Contact Me
         </a>
