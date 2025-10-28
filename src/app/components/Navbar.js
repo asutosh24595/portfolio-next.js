@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="fixed w-full top-0 left-0 z-50 bg-black/20 backdrop-blur-md px-8 py-4 flex justify-between items-center">
       {/* Logo */}
       <div className="flex items-center space-x-3 text-white font-bold text-xl">
-        <Image alt="logo" src={logoImg} className="w-12 h-12 brightness-500" />
+        <Image alt="logo" src={logoImg} className="w-12 h-12 brightness-500" loading="eager" />
       </div>
 
       {/* Links */}
