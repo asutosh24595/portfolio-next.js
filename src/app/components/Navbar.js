@@ -25,7 +25,7 @@ export default function Navbar() {
         {navItems.map((item, idx) => (
           <motion.li
             key={idx}
-            whileHover={{ y: -2, scale: 1.05 }} // the twitch animation
+            whileHover={{ y: -2, scale: 1.05 }} 
             transition={{ type: "spring", stiffness: 300 }}
             className="flex items-center space-x-2 group"
           >
@@ -33,7 +33,7 @@ export default function Navbar() {
               href={item.href}
               className="flex items-center space-x-2 hover:text-slate-400 transition-colors"
             >
-              <span className="text-lg group-hover:rotate-6 transition-transform duration-300">
+              <span className="hidden md:inline text-lg group-hover:rotate-6 transition-transform duration-300">
                 {item.icon}
               </span>
               <span className="font-medium">{item.name}</span>

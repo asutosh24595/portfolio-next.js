@@ -63,7 +63,7 @@ const projects = [
     description:
       "Landing Page for Nexcent made using Next.js, Framer-motion, Typescript and Tailwindcss",
     github: "https://github.com/asutosh24595/responsive-spa-nextjs",
-    live: "https://job-import-system-wine.vercel.app/",
+    live: "https://responsive-spa-nextjs.vercel.app/",
     tech: [<SiNextdotjs />, <SiTailwindcss />, <SiFramer />, <SiTypescript />],
   },
 
